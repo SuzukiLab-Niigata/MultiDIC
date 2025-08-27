@@ -28,6 +28,22 @@ MultiDIC/
 
 ---
 
+## 📅 開発スケジュール
+
+### 直近の目標
+- **2025年9月15日まで**: マニュアル読み込み完了（担当: 柴野・高橋）
+  - [ ] MultiDIC インストラクションマニュアルの精読
+  - [ ] DIC プロジェクトレポートの理解
+  - [ ] 技術要件の整理とドキュメント化
+
+### 今後のマイルストーン
+- **2025年9月末**: Raspberry Pi セットアップ完了
+- **2025年10月中旬**: カメラキャリブレーション実装
+- **2025年11月末**: MultiDIC統合プロトタイプ完成
+- **2025年12月**: 実験検証とパフォーマンス評価
+
+---
+
 ### 2025年8月21日 - ハードウェア到着 🎉
 
 本日、DICシステム構築に必要な主要ハードウェアが到着しました！
@@ -49,9 +65,18 @@ MultiDIC/
    - 価格: ¥60,500 (Amazon.co.jp)
 
 #### 📸 到着した機材の写真
-- Raspberry Pi 4 本体パッケージ
-- High Quality Camera モジュール
-- 今後の拡張を見据えた Intel RealSense の調査資料
+
+![Raspberry Pi 4 と周辺機器](./20250821_本体到着/IMG_9210.jpg)
+*Raspberry Pi 4 本体、High Quality Camera、ヒートシンクのセット*
+
+![Raspberry Pi Camera Module](./20250821_本体到着/rasberrypi_camera.jpg)
+*Raspberry Pi High Quality Camera モジュールの詳細*
+
+![Intel RealSense 参考資料](./20250821_本体到着/intelrealsense.png)
+*今後の拡張を見据えた Intel RealSense D435if の調査資料*
+
+![MultiDIC システム構成図](./20250821_本体到着/MultiDIC.pptx)
+*システム全体の構成計画資料*
 
 #### 次のステップ
 - [ ] Raspberry Pi のOS セットアップ
@@ -65,8 +90,8 @@ MultiDIC/
 
 #### プロトタイプ開発計画
 - **見積もり担当**: @chan-k-346 → @tsuzuki20
-- **ハードウェア構築**: @chan-k-346, @Yutotakahashi
-- **ソフトウェア理解**: @chan-k-346, @Yutotakahashi
+- **ハードウェア構築**: @chan-k-346, @githubisnotavailiblee
+- **ソフトウェア理解**: @chan-k-346, @githubisnotavailiblee
 
 #### 関連ドキュメント
 - [議事録](./docs/meeting_notes.md) (準備中)
@@ -129,7 +154,7 @@ MultiDIC/
 
 ## 👥 開発チーム
 - @chan-k-346 - プロジェクトリード、ハードウェア担当
-- @Yutotakahashi - ハードウェア・ソフトウェア開発
+- @githubisnotavailiblee (@Yutotakahashi) - ハードウェア・ソフトウェア開発、システム統合
 - @tsuzuki20 - 見積もり・調達担当
 
 ---
